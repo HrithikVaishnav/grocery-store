@@ -29,16 +29,16 @@ This is a simple console-based Java application for calculating grocery bills af
 
 2. **Download Dependencies**
 <repository-directory>/
--lib/
-  - junit-4.13.2.jar
-  - hamcrest-core-1.3.jar
+-`lib`
+  - `junit-4.13.2.jar`
+  - `hamcrest-core-1.3.jar`
 
 3. **Compile the Project**
-javac -d out/ -sourcepath src/ -cp "lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar" src/model/*.java src/service/*.java src/test/*.java
+`javac -d out/ -sourcepath src/ -cp "lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar" src/model/*.java src/service/*.java src/test/*.java`
 
 4. **Run the Tests**
-java -cp "out:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore test.PromotionServiceTest test.BillingServiceTest
+`java -cp "out:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore test.PromotionServiceTest test.BillingServiceTest`
 
 5. **To Run Test On Console**
-java -cp "out" main.GroceryStoreApp
+`java -cp "out" main.GroceryStoreApp`
 
